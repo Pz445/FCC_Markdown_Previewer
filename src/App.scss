@@ -1,7 +1,6 @@
 body {
   background-color: #05E393;
 }
-
 #wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -25,15 +24,15 @@ body {
 #editor {
   min-width: 30%;
   margin: 20px;
-}
-#editor textarea {
-  box-sizing: border-box;
-  width: 100%;
-  height: 85vh;
-  resize: vertical;
-  margin: 0;
-  padding: 5px;
-  background-color: lightgrey;
+  textarea {
+    box-sizing: border-box;
+    width: 100%;
+    height: 85vh;
+    resize: vertical;
+    margin: 0;
+    padding: 5px;
+    background-color: lightgrey;
+  }
 }
 
 #preview-wrapper {
@@ -42,15 +41,15 @@ body {
   margin: 20px;
   border: 1px solid black;
   background-color: lightgrey;
-}
-#preview-wrapper #preview {
-  padding: 8px;
-}
-#preview-wrapper #preview code {
-  background-color: white;
-}
-#preview-wrapper #preview blockquote {
-  background: #f0f8ff;
+  #preview {
+    padding: 8px;
+    code {
+      background-color: white;
+    }
+    blockquote {
+      background: #f0f8ff;
+    }
+  }
 }
 
 @media (max-width: 900px) {
@@ -58,5 +57,3 @@ body {
     grid-template-columns: 1fr;
   }
 }
-
-/*# sourceMappingURL=App.css.map */
