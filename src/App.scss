@@ -21,10 +21,10 @@ body {
   width: 100%;
 }
 
-#editor {
+#editor-wrapper {
   min-width: 30%;
   margin: 20px;
-  textarea {
+  #editor {
     box-sizing: border-box;
     width: 100%;
     height: 85vh;
